@@ -1,5 +1,9 @@
 package org.example;
 
+import lombok.Getter;
+import lombok.Setter;
+import org.example.exception.*;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -7,7 +11,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 
-
+@Getter
+@Setter
 public class Main {
     private static List<Imovel> imoveis = new ArrayList<>();
     private static List<Cliente> clientes = new ArrayList<>();

@@ -1,5 +1,10 @@
 package org.example;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 // Classe Fisica
 public class Fisica extends Cliente {
     private String cpf;

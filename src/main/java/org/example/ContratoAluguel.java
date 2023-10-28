@@ -1,11 +1,17 @@
 package org.example;
 
+import lombok.Getter;
+import lombok.Setter;
+import org.example.exception.ConflitoDatasException;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+@Getter
+@Setter
 // Classe ContratoAluguel
 public class ContratoAluguel {
     private Imovel imovel;

@@ -1,5 +1,11 @@
 package org.example;
 
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 // Classe Juridica
 public class Juridica extends Cliente {
     private String cnpj;

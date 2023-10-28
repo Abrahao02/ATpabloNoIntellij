@@ -1,11 +1,17 @@
 package org.example;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+
+@Getter
+@Setter
 // Classe Cliente
 public class Cliente implements Contabil {
     private String nome;

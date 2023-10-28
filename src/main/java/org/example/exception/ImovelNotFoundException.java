@@ -1,4 +1,4 @@
-package org.example;
+package org.example.exception;
 
 public class ImovelNotFoundException extends Exception {
     public ImovelNotFoundException() {
