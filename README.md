@@ -1,12 +1,27 @@
-# Faculdade ATpablo-JAVA
-Projeto faculdade em java objetivo:
+# Projeto Faculdade em Java - Controle de Aluguel de Imóveis
 
-Em uma imobiliária é necessário controlar o cadastro dos clientes que podem ser pessoas físicas ou pessoas jurídicas que estão interessados em alugar um imóvel.
+Este projeto em Java tem como objetivo desenvolver um sistema de controle de aluguel de imóveis para uma imobiliária. O sistema permite o cadastro de clientes e imóveis, além de gerenciar contratos de aluguel entre eles.
 
-Os clientes da imobiliária possuem um nome, um telefone (com DDD) e um e-mail de contato. Os clientes do tipo pessoa física possuem um cpf; clientes do tipo pessoa jurídica possuem um cnpj.
+## Funcionalidades
 
-Os imóveis que estão disponíveis podem ser comerciais ou residenciais e estão localizados em um endereço no Brasil. Cada imóvel tem um nome e seu próprio valor mensal de aluguel.
+- **Cadastro de Clientes:** Permite o cadastro de clientes, que podem ser pessoas físicas ou jurídicas, com suas respectivas informações como nome, telefone, e-mail, CPF/CNPJ, conforme o tipo.
+- **Cadastro de Imóveis:** Permite o cadastro de imóveis disponíveis para aluguel, sendo eles comerciais ou residenciais, com informações como nome, endereço e valor mensal de aluguel.
+- **Contratos de Aluguel:** Permite estabelecer contratos de aluguel entre clientes e imóveis, definindo a data de início e término do contrato. O sistema verifica conflitos de datas entre contratos.
+- **Descontos:** Clientes com 3 ou mais contratos têm um desconto de 5% no valor total do aluguel. Clientes com 5 ou mais contratos têm um desconto de 10%.
 
-Quando um cliente deseja alugar um imóvel, é necessário estabelecer um contrato de aluguel. Em um contrato de aluguel, além do imovel a ser alugado e o cliente que irá alugar, é necessário definir a data de início e a data de término do contrato. Um cliente e um imóvel pode ter vários contratos de aluguéis. No entanto, um imóvel não pode estar em mais de um contrato que tenham períodos conflitantes (datas sobrepostas).
+## Tecnologias Utilizadas
 
-Cliente com 3 ou mais contratos tem 5% de desconto no valor total a ser pago. Cliente com 5 ou mais contratos tem 10% de desconto no valor total a ser pago.
+- **Java:** Linguagem de programação principal utilizada para desenvolver o sistema.
+- **OOP (Programação Orientada a Objetos):** Utilizada para modelar o sistema de forma eficiente e modular.
+- **Estrutura de Dados:** Utilizada para armazenar e gerenciar os dados dos clientes, imóveis e contratos.
+- **Algoritmos de Verificação de Conflitos de Datas:** Implementados para garantir que um imóvel não tenha contratos com períodos conflitantes.
+
+## Executando o Projeto
+
+Para executar o projeto, siga estas etapas:
+
+1. Clone este repositório.
+2. Abra o projeto em sua IDE de preferência (por exemplo, Eclipse, IntelliJ IDEA).
+3. Compile e execute o projeto.
+
+
